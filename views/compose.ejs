@@ -1,0 +1,19 @@
+<%- include('partials/header') -%>
+<h1>compose</h1>
+<form class="" action="/compose" method="post">
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Title</label><br>
+        <input  class="form-control" type="text" id="exampleFormControlSelect1" name="textInput" placeholder="input here" ><br>
+    </div>
+    
+    
+    <div class="form-group">
+        <label  for="exampleFormControlTextarea1">Post</label><br>
+        <!-- cool -->
+        <textarea  class="form-control" type="text" id="exampleFormControlTextarea1" name="textPost" placeholder="input text here" rows="7" cols="20"></textarea><br>
+    </div>
+    
+    <button class="btn-primary" type="submit" name="button">Puplish</button>
+</form>
+
+<%- include('partials/footer') -%>

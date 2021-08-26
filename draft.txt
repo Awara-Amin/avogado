@@ -1,0 +1,13 @@
+
+<!-- <% titleText.forEach((eachTitle) => {%> -->
+    
+    <!-- <% });%> -->
+<!--     
+<% titleText.forEach((eachTitle) => {%>
+    <h1><%= eachTitle.title%> </h1>
+    <% });%>
+
+
+    <% titleContent.forEach((eachContent) => {%>
+    <p><%= eachContent.content%> </p>
+    <% });%> -->
