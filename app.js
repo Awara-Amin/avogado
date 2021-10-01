@@ -34,7 +34,7 @@ app.get("/", function(require, response){
   // }
 })
 
-
+// this is to rendeer about section
 app.get("/about", function(req, res){
   res.render("about.ejs", {aboutText:aboutContent});
 })
